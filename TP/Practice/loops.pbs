@@ -1,0 +1,16 @@
+#!/bin/bash --login
+#
+#PBS -N a
+#PBS -l select=2:ncpus=36
+#PBS -l place=scatter:excl
+#PBS -l walltime=0:10:0
+#PBS -A d171-s1926539
+ 
+cd $PBS_O_WORKDIR
+ 
+ 
+module load intel-compilers-18
+ 
+ 
+export OMP_NUM_THREADS=4
+./loops
