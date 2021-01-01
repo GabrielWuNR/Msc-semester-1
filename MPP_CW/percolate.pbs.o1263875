@@ -1,0 +1,42 @@
+--------------------------------------------------------------------------------
+Running percolate on 15 processes over 1 node(s)
+Issuing command: mpiexec_mpt -n 15 -ppn 15 ./percolate
+Started at Fri Jan 17 10:05:37 GMT 2020
+--------------------------------------------------------------------------------
+percolate: rho = 0.411000, actual density = 0.408119
+percolate: number of changes on step 100 is 622, rank is 0 and average number of array is 20287 
+percolate: number of changes on step 200 is 114, rank is 0 and average number of array is 23532 
+percolate: number of changes on step 300 is 171, rank is 0 and average number of array is 24611 
+percolate: number of changes on step 400 is 585, rank is 0 and average number of array is 25118 
+percolate: number of changes on step 500 is 190, rank is 0 and average number of array is 25283 
+percolate: number of changes on step 600 is 107, rank is 0 and average number of array is 25322 
+percolate: number of changes on step 700 is 46, rank is 0 and average number of array is 25325 
+percolate: number of changes on step 800 is 0, rank is 0 and average number of array is 25326 
+percolate: number of changes on step 900 is 0, rank is 0 and average number of array is 25327 
+
+step is 1000!
+
+
+ The time cost in while is 0.181613!
+
+
+percolate: cluster DOES percolate
+percwrite: visualising the largest 9 clusters
+percwrite: cluster sizes are 24569, 8801, 1597, 912, 471, 383, 358, 270, 264
+percwrite: opening file <map.pgm>
+percwrite: writing data ...
+percwrite: ... done
+percwrite: file closed
+
+
+
+
+ average time of sending smallmap is 0.000294  
+average time in switching the halo is 0.181613
+average time of receiving smallmap is 0.000310  
+
+real	0m0.462s
+user	0m2.959s
+sys	0m0.072s
+--------------------------------------------------------------------------------
+Finished at Fri Jan 17 10:05:37 GMT 2020
